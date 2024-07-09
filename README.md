@@ -12,7 +12,7 @@ For example, you can use _GitVersion.exe_ to calculate the next version number a
 # Release Notes
 ## 1.3.0 (09-July-2024)
 - Updated the execution handler to powershell3
-- 
+
 ## 1.2.0 (09-Apr-2017)
 - Added a *Custom attributes* field to update assembly attributes based on key-value pairs
 - Improved logging to powershell console during build process
