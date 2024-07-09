@@ -3,11 +3,11 @@
     "name":  "Update AssemblyInfo",
     "friendlyName":  "Update AssemblyInfo",
     "description":  "Update your AssemblyInfo files during build",
-    "author":  "Sebastian Lux",
+    "author":  "Derek Smith",
     "category":  "Build",
     "version":  {
                     "Major":  1,
-                    "Minor":  2,
+                    "Minor":  3,
                     "Patch":  0
                 },
     "instanceNameFormat":  "Update $(filePattern) files: $(rootFolder)",
