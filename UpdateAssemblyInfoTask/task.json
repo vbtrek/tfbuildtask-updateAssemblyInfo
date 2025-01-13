@@ -1,7 +1,7 @@
 ﻿{
-    "id":  "15d52d16-71e4-4d11-997f-9d51ed147255",
-    "name":  "Update AssemblyInfo",
-    "friendlyName":  "Update AssemblyInfo",
+    "id":  "e3b0c442-98fc-1c14-9afc-2f8d8b8d8b8d",
+    "name":  "AssemblyInfoPropertiesUpdater",
+    "friendlyName":  "Assembly Info Properties Updater",
     "description":  "Update your AssemblyInfo files during build",
     "author":  "Derek Smith",
     "category":  "Build",

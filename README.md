@@ -7,10 +7,12 @@ Just leave them as they are and let the build process do the work.
 
 The build task can also be very helpful if you want to update your version number automatically.
 For example, you can use _GitVersion.exe_ to calculate the next version number and then use this build task to add it to each _AssemblyInfo_ file
-(yes, _GitVersion.exe_ also offers an AssemblyInfo update mechanism, but it does currently not let you define the schema of the *Version* and *FileVersion* attribute). 
+(yes, _GitVersion.exe_ also offers an AssemblyInfo update mechanism, but it does currently not let you define the schema of the *Version* and *FileVersion* attribute).
+
+NOTE: This is an updated version of sebastianlux.UpdateAssemblyInfo with the latest powershell3 handler.
 
 # Release Notes
-## 1.3.0 (09-July-2024)
+## 1.3.0 (13-Jan-2025)
 - Updated the execution handler to powershell3
 
 ## 1.2.0 (09-Apr-2017)

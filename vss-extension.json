@@ -1,11 +1,11 @@
  {
         "manifestVersion": 1,
-        "id": "UpdateAssemblyInfo",
+        "id": "AssemblyInfoPropertiesUpdater",
         "version": "1.3.0",
-        "name": "Update AssemblyInfo",
+        "name": "AssemblyInfoPropertiesUpdater",
         "author": "Derek Smith",
-        "description": "Team Foundation Build (TFBuild) task for easy updating of assembly information",
-        "publisher": "vbtrek",
+        "description": "Azure DevOps Build task for easy updating of assembly information",
+        "publisher": "DerekSmith",
         "public": true,
         "targets": [
             {
@@ -13,7 +13,7 @@
                 }
             ],
         "categories": [
-            "Build and release"
+            "Azure Pipelines"
         ],
         "tags": [
             "build",
@@ -32,18 +32,18 @@
         },
         "links":{
             "home": {
-                "uri": "https://github.com/SebastianLux/tfbuildtask-updateAssemblyInfo/"
+                "uri": "https://github.com/vbtrek/tfbuildtask-updateAssemblyInfo/"
             },
             "support": {
-                "uri": "https://github.com/SebastianLux/tfbuildtask-updateAssemblyInfo/issues"
+                "uri": "https://github.com/vbtrek/tfbuildtask-updateAssemblyInfo/issues"
             },
             "issues": {
-                "uri": "https://github.com/SebastianLux/tfbuildtask-updateAssemblyInfo/issues"
+                "uri": "https://github.com/vbtrek/tfbuildtask-updateAssemblyInfo/issues"
             }
         },
         "contributions": [
             {
-            "id": "UpdateAssemblyInfo-task",
+            "id": "AssemblyInfoPropertiesUpdater-task",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
