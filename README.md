@@ -1,17 +1,12 @@
 # Introduction
-Team Foundation Build (TFBuild) task for easy updating of assembly information.
-
-This build task updates all AssemblyInfo files while your build is running.
-There is no more need to adjust each attribute of each project in your solution manually.
-Just leave them as they are and let the build process do the work.
-
-The build task can also be very helpful if you want to update your version number automatically.
-For example, you can use _GitVersion.exe_ to calculate the next version number and then use this build task to add it to each _AssemblyInfo_ file
-(yes, _GitVersion.exe_ also offers an AssemblyInfo update mechanism, but it does currently not let you define the schema of the *Version* and *FileVersion* attribute).
+This Azure Devops Build Task simplifies the process of updating assembly information. During the build, it automatically updates all AssemblyInfo files, removing the need to manually modify attributes in each project. Just leave the existing settings as they are—the build process will handle everything for you.
 
 NOTE: This is an updated version of sebastianlux.UpdateAssemblyInfo with the latest powershell3 handler.
 
 # Release Notes
+## 1.3.2 (17-Mar-2026)
+- Updated marketplace icon and description
+
 ## 1.3.0 (13-Jan-2025)
 - Updated the execution handler to powershell3
 

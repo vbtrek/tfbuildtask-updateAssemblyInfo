@@ -1,10 +1,10 @@
  {
         "manifestVersion": 1,
         "id": "AssemblyInfoPropertiesUpdater",
-        "version": "1.3.1",
+        "version": "1.3.2",
         "name": "Assembly Info Properties Updater",
         "author": "Derek Smith",
-        "description": "Azure DevOps Build task for easy updating of assembly information",
+        "description": "Azure DevOps Build task to update assembly information",
         "publisher": "DerekSmith",
         "public": true,
         "targets": [
